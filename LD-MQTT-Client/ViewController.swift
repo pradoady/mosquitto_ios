@@ -30,7 +30,7 @@ class CircularButton: UIButton {
 
 class ClientViewController: UIViewController {
 
-    let MQTT_HOST = "mqtt-server" // or IP address e.g. "192.168.0.194"
+    let MQTT_HOST = "localhost" // or IP address e.g. "192.168.0.194"
     let MQTT_PORT: UInt32 = 1883
     
     @IBOutlet private weak var button: CircularButton!
